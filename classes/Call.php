@@ -1,13 +1,16 @@
 <?php
+    require_once 'Record.php';
     class Call{
         private $call_id;
 
-        public function Video(){
+        function 
 
+        public function Video(){
+            //Opemn the video
         }
 
         public function recordCall(){
-
+            $record = new Record();
         }
 
         public function addPeople(){
@@ -23,11 +26,11 @@
         }
 
         public function Emergency(){
-
+            
         }
 
         public function Accept(){
-
+            
         }
 
         public function Decline(){

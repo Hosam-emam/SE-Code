@@ -1,9 +1,14 @@
 <?php
+    require_once 'Database.php';
     class Chat{
         private $chat_ID;
-        
-        public function chooseChat(contact){
-            
+        private $db;
+        public function __construct(){
+
+        }
+        public function chooseChat($phoneNumber){
+            $db = new Database();
+            $db->openChat($phoneNumber);
         }
     }
 ?>
