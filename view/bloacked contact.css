@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background-image: url(2.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    color: #0985fa;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 7px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+.mm {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mm li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+.mm li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.mm li a:hover {
+    color: #0985fa;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style for the dropdown button */
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style for the dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: max-content;
+}
+
+/* Style for the dropdown links */
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Style for the dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #000000;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+
+
+
+.container {
+    max-width: 415px;
+    margin: 0 auto;
+    background-color: #313438;
+    height: 65vh;
+    margin-left: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    background: linear-gradient(90deg, rgb(0 0 0) 0%, rgb(159 159 159) 100%);
+    padding: 2em 0;
+    align-items: center;
+}
+
+.contact-search {
+    font-size: 1.2em;
+    padding: .3em .3em;
+    border-radius: 100px;
+    border: 1px solid white;
+    outline: none;
+}
+
+
+.contacts-library {
+    background: #194b69;
+}
+
+.add {
+    color: #fff;
+    font-size: 1.5em;
+}
+
+i {
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.contact-name {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+hr {
+    border: 1px solicontactd #494a4b;
+}
+
+.list__item {
+    list-style: none;
+}
+
+.contact-name {
+    color: #fff;
+    width: 6em;
+    text-align: center;
+    padding: 0.4em 0.5em;
+    border-radius: 100px;
+    border-top-left-radius: 0;
+    background-color: #131611;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5em;
+    transition: 0.3s;
+    height: 9vh;
+}
+
+.contact-section:hover {
+    background-color: #48494a;
+}
+
+.text {
+    padding-left: 1em;
+}

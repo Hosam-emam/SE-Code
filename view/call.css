@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.call-container {
+    max-width: 427px;
+    margin: 50px auto;
+    background-color: #000000;
+    border-radius: 35px;
+    padding: 87px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 500px;
+}
+
+.call-info {
+    margin-bottom: 201px;
+}
+
+.call-info h2 {
+    margin-top: 0px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fafafa;
+}
+
+.call-info p {
+    font-size: 26px;
+    margin-bottom: 0px;
+    color: #fafafa;
+}
+
+.call-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-buttons button {
+    margin: 0px 10px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+
+* {
+    margin: 8px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.call-buttons button:hover {
+    background-color: #f5f5f5;
+}
+
+.call-buttons .red {
+    color: #ff0000;
+}
+
+.call-buttons .green {
+    color: #0a0a0a;
+}

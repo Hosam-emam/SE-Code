@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Record Class Example</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+    </style>
+    <script src="script.js">
+        // Define the Record class and its methods
+class Record {
+    constructor() {
+        this.isRecording = false;
+    }
+
+    start() {
+        // Placeholder logic for starting recording
+        console.log('Recording started');
+        this.isRecording = true;
+    }
+
+    End() {
+        // Placeholder logic for ending recording
+        console.log('Recording ended');
+        this.isRecording = false;
+    }
+
+    viewRecord() {
+        // Placeholder logic for viewing record
+        console.log('Viewing record');
+    }
+}
+
+// Create an instance of the Record class
+const record = new Record();
+
+// Functions to handle button clicks
+function startRecording() {
+    if (!record.isRecording) {
+        record.start();
+        alert('Recording started');
+    } else {
+        alert('Recording is already in progress');
+    }
+}
+
+function endRecording() {
+    if (record.isRecording) {
+        record.End();
+        alert('Recording ended');
+    } else {
+        alert('No recording in progress');
+    }
+}
+
+function viewRecord() {
+    record.viewRecord();
+    alert('Viewing record');
+}
+
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Record </h1>
+        <button onclick="startRecording()">Start Recording</button>
+        <button onclick="endRecording()">End Recording</button>
+        <button onclick="viewRecord()">View Record</button>
+    </div>
+    
+</body>
+</html>

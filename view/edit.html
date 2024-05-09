@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style-edit.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/6b20b1c14d.js" crossorigin="anonymous"></script>
+    <title>Edit Contact</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="hero">
+
+            <a href="home.html">
+                <i class="fas fa-chevron-circle-left back-btn"></i>
+            </a>
+
+        </header>
+
+
+
+        <!-- <section class="button-container">
+            <div class="update-contact">
+                <i class="fas fa-check-circle icon-gradient"></i>
+                <button class="button">Save Contact</button>
+            </div>
+        </section> -->
+
+
+
+        <!-- <?php
+        require_once'../controller/DBController.php' ;
+        require_once'../controller/contactController.php' ;
+        
+        
+        $db=new DBController ;
+        $con=new contact ;
+        $nickname='';
+        $isblock='';
+        $user_id='' ;
+
+if (isset($_POST['name']) && isset($_POST['number'])) {
+    $name = $_POST['name'];
+    $number = $_POST['number'];
+    
+    // Call your PHP function with the input values
+    $con->addContact($name,$number,$nickname,$isfavourite,$isblock,$user_id);
+  }
+     ?> -->
+
+
+
+        <form method="post" action="functions.php">
+            <section class="contact-info">
+
+
+                <div class="info-line">
+                    <i class="fas fa-user-circle icon-gradient"></i>
+                    <input type="text" class="type" name="name" placeholder="Name">
+                </div>
+
+
+                <div class="info-line">
+                    <i class="fas fa-phone icon-gradient"></i>
+                    <input type="text" class="type" name="number" placeholder="phone-number">
+                </div>
+
+
+            </section>
+
+            <section class="button-container">
+                <div class="update-contact">
+                    <i class="fas fa-check-circle icon-gradient"></i>
+
+                    <button type="submit" name="submit">save contact</button>
+        </form>
+
+    </div>
+    </section>
+
+
+
+
+
+</body>
+
+</html>

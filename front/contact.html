@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Class Example</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+    </style>
+    <script src="script.js">
+        // Define the Contact class and its methods
+class Contact {
+    constructor(contactName, isBlocked, isFav) {
+        this.contactName = contactName;
+        this.isBlocked = isBlocked;
+        this.isFav = isFav;
+    }
+
+    addContact() {
+        // Placeholder logic for adding a contact
+        console.log('Contact added');
+    }
+
+    editContact() {
+        // Placeholder logic for editing a contact
+        console.log('Contact edited');
+    }
+
+    report() {
+        // Placeholder logic for reporting a contact
+        return 'Reported contact';
+    }
+
+    deleteContact() {
+        // Placeholder logic for deleting a contact
+        console.log('Contact deleted');
+    }
+
+    block() {
+        // Placeholder logic for blocking a contact
+        console.log('Contact blocked');
+    }
+
+    unblock() {
+        // Placeholder logic for unblocking a contact
+        console.log('Contact unblocked');
+    }
+
+    search() {
+        // Placeholder logic for searching a contact
+        console.log('Contact searched');
+    }
+
+    favoriteContact() {
+        // Placeholder logic for marking a contact as favorite
+        console.log('Contact added to favorites');
+    }
+
+    shareContact() {
+        // Placeholder logic for sharing a contact
+        console.log('Contact shared');
+    }
+}
+
+// Create an instance of the Contact class
+const contact = new Contact('Alice', false, true);
+
+// Functions to handle button clicks
+function addContact() {
+    contact.addContact();
+    alert('Contact added');
+}
+
+function editContact() {
+    contact.editContact();
+    alert('Contact edited');
+}
+
+function report() {
+    const reportMessage = contact.report();
+    alert(reportMessage);
+}
+
+function deleteContact() {
+    contact.deleteContact();
+    alert('Contact deleted');
+}
+
+function block() {
+    contact.block();
+    alert('Contact blocked');
+}
+
+function unblock() {
+    contact.unblock();
+    alert('Contact unblocked');
+}
+
+function search() {
+    contact.search();
+    alert('Contact searched');
+}
+
+function favoriteContact() {
+    contact.favoriteContact();
+    alert('Contact added to favorites');
+}
+
+function shareContact() {
+    contact.shareContact();
+    alert('Contact shared');
+}
+
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Contact</h1>
+        <button onclick="addContact()">Add Contact</button>
+        <button onclick="editContact()">Edit Contact</button>
+        <button onclick="report()">Report Contact</button>
+        <button onclick="deleteContact()">Delete Contact</button>
+        <button onclick="block()">Block Contact</button>
+        <button onclick="unblock()">Unblock Contact</button>
+        <button onclick="search()">Search Contact</button>
+        <button onclick="favoriteContact()">Favorite Contact</button>
+        <button onclick="shareContact()">Share Contact</button>
+    </div>
+</body>
+</html>

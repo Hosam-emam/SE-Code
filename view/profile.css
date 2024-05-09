@@ -1,0 +1,111 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+
+    width: 100%;
+    background-image: url(2.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+
+}
+
+
+.container {
+    max-width: 428px;
+    margin: 0 auto;
+    background-color: #194b69;
+    min-height: 100vh;
+}
+
+.hero {
+    color: #fff;
+    background: linear-gradient(90deg, rgb(0 0 0) 0%, rgb(159 159 159) 100%);
+    padding: 2em 0;
+}
+
+.back-btn {
+    color: #fff;
+    font-size: 1.7em;
+    padding-left: 1em;
+}
+
+.contact-info {
+    padding: 3em 1.5em;
+}
+
+.hero-info {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+
+.fa,
+.far,
+.fas {
+    font-family: "Font Awesome 5 Free";
+    color: deepskyblue
+}
+
+.info-line {
+    display: flex;
+    color: #fff;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 1em 2em;
+    margin-top: 2em;
+    border-radius: 20px;
+    box-shadow: 6px 6px 12px #2d2f33,
+        -6px -6px 12px #35393d;
+}
+
+p {
+    margin: 0;
+    padding-left: 2em;
+}
+
+.icon-gradient {
+    background: linear-gradient(90deg, rgb(255 255 255) 0%, rgb(243 243 243) 100%);
+    border-radius: 100px;
+    font-size: 1.5em;
+    padding: .5em;
+}
+
+#location {
+    padding: .5em .6em;
+}
+
+
+
+.edit-contact {
+    background-color: #313438;
+    padding: 2.5em 3.5em;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+.button {
+    background-color: #194b69;
+    border: none;
+    color: #fff;
+    font-size: 1.3em;
+    padding-left: 1.5em;
+    cursor: pointer;
+}
